@@ -34,7 +34,14 @@ function replacePropertyElement(){
 				});
 
 				$('li').html("это элемент списка");
+
+				$('span').css({
+					color: 'red',
+				});
+
+				$('span').html("это спан");
 			}	
+			
 	/*--------------------------------------*/		
 }
 
